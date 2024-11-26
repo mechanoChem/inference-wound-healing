@@ -39,15 +39,19 @@ Other useful commands:
 1. Removing an image (You will not need this unless you used the wrong image)
 
 docker rmi $image_name:$tag
+
 2. Removing a container named fenics
 
   docker rm fenics
+
 3. Checking status of all containers
 
   docker ps -a
+
 4. Checking status of all images
 
   docker ps -i
+
 5. Running with privileges to get mount on
 
   docker run --name fenics -dit --privileged -w /home/fenics/shared -v $(pwd):/home/fenics/shared $image_name:$tag
