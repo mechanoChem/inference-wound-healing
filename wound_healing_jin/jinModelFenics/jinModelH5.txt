@@ -1,0 +1,120 @@
+HDF5 density.h5 
+Group '/' 
+    Group '/Mesh' 
+        Group '/Mesh/0' 
+            Group '/Mesh/0/mesh' 
+                Dataset 'geometry' 
+                    Size:  2x38
+                    MaxSize:  2x38
+                    Datatype:   H5T_IEEE_F64LE (double)
+                    ChunkSize:  []
+                    Filters:  none
+                    FillValue:  0.000000
+                    Attributes:
+                        'partition':  0 
+                Dataset 'topology' 
+                    Size:  2x37
+                    MaxSize:  2x37
+                    Datatype:   H5T_STD_I32LE (int32)
+                    ChunkSize:  []
+                    Filters:  none
+                    FillValue:  0
+                    Attributes:
+                        'partition':  0 
+        Group '/Mesh/1' 
+            Group '/Mesh/1/mesh' 
+                Dataset 'geometry' 
+                    Size:  2x38
+                    MaxSize:  2x38
+                    Datatype:   H5T_IEEE_F64LE (double)
+                    ChunkSize:  []
+                    Filters:  none
+                    FillValue:  0.000000
+                    Attributes:
+                        'partition':  0 
+                Dataset 'topology' 
+                    Size:  2x37
+                    MaxSize:  2x37
+                    Datatype:   H5T_STD_I32LE (int32)
+                    ChunkSize:  []
+                    Filters:  none
+                    FillValue:  0
+                    Attributes:
+                        'partition':  0 
+        Group '/Mesh/2' 
+            Group '/Mesh/2/mesh' 
+                Dataset 'geometry' 
+                    Size:  2x38
+                    MaxSize:  2x38
+                    Datatype:   H5T_IEEE_F64LE (double)
+                    ChunkSize:  []
+                    Filters:  none
+                    FillValue:  0.000000
+                    Attributes:
+                        'partition':  0 
+                Dataset 'topology' 
+                    Size:  2x37
+                    MaxSize:  2x37
+                    Datatype:   H5T_STD_I32LE (int32)
+                    ChunkSize:  []
+                    Filters:  none
+                    FillValue:  0
+                    Attributes:
+                        'partition':  0 
+        Group '/Mesh/3' 
+            Group '/Mesh/3/mesh' 
+                Dataset 'geometry' 
+                    Size:  2x38
+                    MaxSize:  2x38
+                    Datatype:   H5T_IEEE_F64LE (double)
+                    ChunkSize:  []
+                    Filters:  none
+                    FillValue:  0.000000
+                    Attributes:
+                        'partition':  0 
+                Dataset 'topology' 
+                    Size:  2x37
+                    MaxSize:  2x37
+                    Datatype:   H5T_STD_I32LE (int32)
+                    ChunkSize:  []
+                    Filters:  none
+                    FillValue:  0
+                    Attributes:
+                        'partition':  0 
+    Group '/VisualisationVector' 
+        Dataset '0' 
+            Size:  1x38
+            MaxSize:  1x38
+            Datatype:   H5T_IEEE_F64LE (double)
+            ChunkSize:  []
+            Filters:  none
+            FillValue:  0.000000
+            Attributes:
+                'partition':  0 
+        Dataset '1' 
+            Size:  1x38
+            MaxSize:  1x38
+            Datatype:   H5T_IEEE_F64LE (double)
+            ChunkSize:  []
+            Filters:  none
+            FillValue:  0.000000
+            Attributes:
+                'partition':  0 
+        Dataset '2' 
+            Size:  1x38
+            MaxSize:  1x38
+            Datatype:   H5T_IEEE_F64LE (double)
+            ChunkSize:  []
+            Filters:  none
+            FillValue:  0.000000
+            Attributes:
+                'partition':  0 
+        Dataset '3' 
+            Size:  1x38
+            MaxSize:  1x38
+            Datatype:   H5T_IEEE_F64LE (double)
+            ChunkSize:  []
+            Filters:  none
+            FillValue:  0.000000
+            Attributes:
+                'partition':  0 

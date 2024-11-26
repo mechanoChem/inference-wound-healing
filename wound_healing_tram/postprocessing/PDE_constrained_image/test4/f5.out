@@ -1,0 +1,97 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~ STARTING ADJ OPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Running testcase 4 with adjoint restart parameters
+Group: 5/6 with wells: ['A05', 'B05', 'C05', 'D05']
+for group 5/6, basis 5, gamma = [ 27.92538332   0.           0.           0.           0.
+   0.           0.06637188 -41.1581665 ]
+ww = 0, well = A05, loss = 3.546146835350805
+ww = 1, well = B05, loss = 4.324201914017765
+ww = 2, well = C05, loss = 3.280889303263071
+ww = 3, well = D05, loss = 3.7493911621503107
+m =  [ 27.92537912   0.06624468 -41.15817582]
+m =  [ 27.92537902   0.06624491 -41.15817584]
+m =  [ 27.92537886   0.06624496 -41.1581759 ]
+===============================================
+Reinitialization after every: 10 steps
+Main optim time: 1118.662930 seconds
+===============================================
+After minimize, tem = [ 27.92537886   0.           0.           0.           0.
+   0.           0.06624496 -41.1581759 ]
+Done with step 6/8 with wells: ['A05', 'B05', 'C05', 'D05']
+for group 5/6, basis 6, gamma = [3.90392006e+01 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 7.22601096e-03 0.00000000e+00]
+ww = 0, well = A05, loss = 3.7006855598894455
+ww = 1, well = B05, loss = 4.552571178970252
+ww = 2, well = C05, loss = 3.439680712069242
+ww = 3, well = D05, loss = 3.9310323431892984
+m =  [3.90392006e+01 7.22601096e-03]
+===============================================
+Reinitialization after every: 10 steps
+Main optim time: 805.978224 seconds
+===============================================
+After minimize, tem = [3.90392006e+01 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 7.22601096e-03 0.00000000e+00]
+Done with step 7/8 with wells: ['A05', 'B05', 'C05', 'D05']
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.49006D+01    |proj g|=  1.99116D-02
+
+At iterate    1    f=  1.49006D+01    |proj g|=  1.55999D-03
+
+At iterate    2    f=  1.49006D+01    |proj g|=  7.02274D-04
+
+At iterate    3    f=  1.49006D+01    |proj g|=  7.02254D-04
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3      3      5      4     0     0   7.023D-04   1.490D+01
+  F =   14.900575878767739     
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            2     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.56240D+01    |proj g|=  8.34200D-09
+
+At iterate    1    f=  1.56240D+01    |proj g|=  4.17602D-09
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    2      1      3      1     0     0   4.176D-09   1.562D+01
+  F =   15.623969794117407     
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             

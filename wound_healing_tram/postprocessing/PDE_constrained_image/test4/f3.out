@@ -1,0 +1,118 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~ STARTING ADJ OPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Running testcase 4 with adjoint restart parameters
+Group: 5/6 with wells: ['A05', 'B05', 'C05', 'D05']
+for group 5/6, basis 5, gamma = [ 28.07323627   0.           0.           0.           0.
+   0.           0.06303877 -38.84613146]
+ww = 0, well = A05, loss = 3.5473451641312517
+ww = 1, well = B05, loss = 4.324818841823893
+ww = 2, well = C05, loss = 3.2809494238442465
+ww = 3, well = D05, loss = 3.7502749910781272
+m =  [ 28.07323651   0.06298522 -38.8461389 ]
+m =  [ 28.07323656   0.06298567 -38.84614045]
+m =  [ 28.07323679   0.06298646 -38.84614752]
+m =  [ 28.07323777   0.0629883  -38.84617847]
+m =  [ 28.0732403    0.06299099 -38.84625823]
+m =  [ 28.07324762   0.06299569 -38.84648932]
+m =  [ 28.0732671    0.0630035  -38.84710397]
+m =  [ 28.07331946   0.06301715 -38.84875558]
+m =  [ 28.07345766   0.06304151 -38.85311546]
+m =  [ 28.07382124   0.06308703 -38.86458526]
+===============================================
+Reinitialization after every: 10 steps
+Main optim time: 3022.945470 seconds
+===============================================
+After minimize, tem = [ 28.07382124   0.           0.           0.           0.
+   0.           0.06308703 -38.86458526]
+Done with step 6/8 with wells: ['A05', 'B05', 'C05', 'D05']
+for group 5/6, basis 6, gamma = [3.90392006e+01 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 7.22601096e-03 0.00000000e+00]
+ww = 0, well = A05, loss = 3.7006855598895494
+ww = 1, well = B05, loss = 4.552571178968601
+ww = 2, well = C05, loss = 3.4396807120696735
+ww = 3, well = D05, loss = 3.931032343189112
+m =  [3.90392006e+01 7.22601096e-03]
+===============================================
+Reinitialization after every: 10 steps
+Main optim time: 2759.569749 seconds
+===============================================
+After minimize, tem = [3.90392006e+01 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 7.22601096e-03 0.00000000e+00]
+Done with step 7/8 with wells: ['A05', 'B05', 'C05', 'D05']
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.49034D+01    |proj g|=  1.89116D-02
+
+At iterate    1    f=  1.49034D+01    |proj g|=  2.11882D-03
+
+At iterate    2    f=  1.49034D+01    |proj g|=  2.12309D-03
+
+At iterate    3    f=  1.49034D+01    |proj g|=  7.30831D-03
+
+At iterate    4    f=  1.49034D+01    |proj g|=  1.88612D-02
+
+At iterate    5    f=  1.49034D+01    |proj g|=  1.88639D-02
+
+At iterate    6    f=  1.49034D+01    |proj g|=  1.88686D-02
+
+At iterate    7    f=  1.49034D+01    |proj g|=  1.88764D-02
+
+At iterate    8    f=  1.49034D+01    |proj g|=  1.88900D-02
+
+At iterate    9    f=  1.49034D+01    |proj g|=  1.89144D-02
+
+At iterate   10    f=  1.49034D+01    |proj g|=  1.89599D-02
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     10     13     11     0     0   1.896D-02   1.490D+01
+  F =   14.903358932590626     
+
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT                 
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            2     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.56240D+01    |proj g|=  8.48992D-09
+
+At iterate    1    f=  1.56240D+01    |proj g|=  8.33253D-09
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    2      1     16      1     0     0   8.333D-09   1.562D+01
+  F =   15.623969794116299     
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             

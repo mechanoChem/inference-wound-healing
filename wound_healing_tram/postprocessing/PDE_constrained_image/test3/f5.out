@@ -1,0 +1,205 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~ STARTING ADJ OPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Running testcase 3 with adjoint restart parameters
+Group: 4/6 with wells: ['A04', 'B04', 'C04', 'D04']
+for group 4/6, basis 5, gamma = [ 30.51623781   0.           0.           0.           0.
+   0.           0.06106234 -39.01547437]
+ww = 0, well = A04, loss = 3.676970133114817
+ww = 1, well = B04, loss = 2.839579236418389
+ww = 2, well = C04, loss = 4.47090727414481
+ww = 3, well = D04, loss = 3.1785924758459103
+m =  [ 30.51623609   0.06102069 -39.01547653]
+m =  [ 30.51623596   0.06102076 -39.01547663]
+m =  [ 30.51623432   0.06102116 -39.01547792]
+m =  [ 30.51623047   0.06102163 -39.01548097]
+m =  [ 30.51621779   0.0610225  -39.01549102]
+m =  [ 30.51618425   0.06102387 -39.01551762]
+m =  [ 30.51609173   0.06102616 -39.01559101]
+m =  [ 30.51584627   0.06102994 -39.01578578]
+m =  [ 30.51519428   0.06103632 -39.0163032 ]
+m =  [ 30.51347878   0.06104727 -39.01766473]
+m =  [ 30.50898355   0.06106662 -39.0212326 ]
+m =  [ 30.49731115   0.0611019  -39.03049727]
+m =  [ 30.4675572    0.06116795 -39.05411418]
+m =  [ 30.3951233    0.06129132 -39.11160852]
+m =  [ 30.23788289   0.06150318 -39.23641896]
+m =  [ 29.97741191   0.06177856 -39.44317051]
+m =  [ 29.73290276   0.06194282 -39.63725412]
+m =  [ 29.67499956   0.06190622 -39.68321749]
+m =  [ 29.70327963   0.0618482  -39.66077058]
+m =  [ 29.71425256   0.06183489 -39.6520609 ]
+m =  [ 29.71517636   0.06183417 -39.65132851]
+m =  [ 29.71540279   0.06183402 -39.65114989]
+m =  [ 29.71615338   0.0618335  -39.6505613 ]
+m =  [ 29.7170733    0.06183287 -39.64984769]
+m =  [ 29.71876357   0.06183174 -39.64855844]
+m =  [ 29.72140233   0.06183002 -39.64660171]
+m =  [ 29.72575913   0.06182739 -39.64351973]
+m =  [ 29.73277391   0.0618237  -39.6389452 ]
+m =  [ 29.74421969   0.06181898 -39.63248287]
+m =  [ 29.76304192   0.06181423 -39.62438357]
+m =  [ 29.79164559   0.06181819 -39.61925298]
+m =  [ 29.84283361   0.06183207 -39.62221841]
+m =  [ 29.83383051   0.06192374 -39.66382671]
+m =  [ 29.89149021   0.06197796 -39.70565568]
+m =  [ 29.94417885   0.06219529 -39.88148748]
+m =  [ 29.90307143   0.06242758 -40.07389271]
+m =  [ 29.82950286   0.06253944 -40.16899028]
+m =  [ 29.80127871   0.06254461 -40.17451669]
+m =  [ 29.79839418   0.06253882 -40.16989443]
+m =  [ 29.79842232   0.06253855 -40.16966888]
+===============================================
+Reinitialization after every: 10 steps
+Main optim time: 9549.618802 seconds
+===============================================
+After minimize, tem = [ 29.79842232   0.           0.           0.           0.
+   0.           0.06253855 -40.16966888]
+Done with step 6/8 with wells: ['A04', 'B04', 'C04', 'D04']
+for group 4/6, basis 6, gamma = [4.04090481e+01 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 7.39339173e-03 0.00000000e+00]
+ww = 0, well = A04, loss = 3.8362835705668643
+ww = 1, well = B04, loss = 2.9414621043840756
+ww = 2, well = C04, loss = 4.690503268137779
+ww = 3, well = D04, loss = 3.33112910685643
+===============================================
+Reinitialization after every: 10 steps
+Main optim time: 264.016483 seconds
+===============================================
+After minimize, tem = [4.04090481e+01 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 7.39339173e-03 0.00000000e+00]
+Done with step 7/8 with wells: ['A04', 'B04', 'C04', 'D04']
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.41660D+01    |proj g|=  1.83187D-02
+
+At iterate    1    f=  1.41660D+01    |proj g|=  7.70348D-04
+
+At iterate    2    f=  1.41660D+01    |proj g|=  7.70325D-04
+
+At iterate    3    f=  1.41660D+01    |proj g|=  2.33939D-03
+
+At iterate    4    f=  1.41660D+01    |proj g|=  5.14527D-03
+
+At iterate    5    f=  1.41660D+01    |proj g|=  1.03539D-02
+
+At iterate    6    f=  1.41660D+01    |proj g|=  1.82802D-02
+
+At iterate    7    f=  1.41660D+01    |proj g|=  1.82825D-02
+
+At iterate    8    f=  1.41660D+01    |proj g|=  1.82863D-02
+
+At iterate    9    f=  1.41660D+01    |proj g|=  1.82927D-02
+
+At iterate   10    f=  1.41660D+01    |proj g|=  1.83036D-02
+
+At iterate   11    f=  1.41660D+01    |proj g|=  1.83230D-02
+
+At iterate   12    f=  1.41660D+01    |proj g|=  1.83583D-02
+
+At iterate   13    f=  1.41660D+01    |proj g|=  1.84243D-02
+
+At iterate   14    f=  1.41660D+01    |proj g|=  1.85477D-02
+
+At iterate   15    f=  1.41659D+01    |proj g|=  1.87595D-02
+
+At iterate   16    f=  1.41657D+01    |proj g|=  1.90349D-02
+
+At iterate   17    f=  1.41656D+01    |proj g|=  1.91992D-02
+
+At iterate   18    f=  1.41655D+01    |proj g|=  1.91626D-02
+
+At iterate   19    f=  1.41655D+01    |proj g|=  1.16269D-02
+
+At iterate   20    f=  1.41655D+01    |proj g|=  1.43116D-03
+
+At iterate   21    f=  1.41655D+01    |proj g|=  4.24285D-04
+
+At iterate   22    f=  1.41655D+01    |proj g|=  4.24911D-04
+
+At iterate   23    f=  1.41655D+01    |proj g|=  1.71093D-03
+
+At iterate   24    f=  1.41655D+01    |proj g|=  3.40834D-03
+
+At iterate   25    f=  1.41655D+01    |proj g|=  6.45438D-03
+
+At iterate   26    f=  1.41655D+01    |proj g|=  1.11202D-02
+
+At iterate   27    f=  1.41655D+01    |proj g|=  1.88143D-02
+
+At iterate   28    f=  1.41655D+01    |proj g|=  1.90801D-02
+
+At iterate   29    f=  1.41655D+01    |proj g|=  1.90753D-02
+
+At iterate   30    f=  1.41655D+01    |proj g|=  1.90706D-02
+
+At iterate   31    f=  1.41655D+01    |proj g|=  1.90746D-02
+
+At iterate   32    f=  1.41655D+01    |proj g|=  1.90884D-02
+
+At iterate   33    f=  1.41655D+01    |proj g|=  1.91801D-02
+
+At iterate   34    f=  1.41655D+01    |proj g|=  1.92343D-02
+
+At iterate   35    f=  1.41655D+01    |proj g|=  1.94517D-02
+
+At iterate   36    f=  1.41654D+01    |proj g|=  1.96839D-02
+
+At iterate   37    f=  1.41654D+01    |proj g|=  2.73375D-04
+
+At iterate   38    f=  1.41654D+01    |proj g|=  3.81908D-03
+
+At iterate   39    f=  1.41654D+01    |proj g|=  1.85353D-04
+
+At iterate   40    f=  1.41654D+01    |proj g|=  5.00841D-06
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     40     43     41     0     0   5.008D-06   1.417D+01
+  F =   14.165414397366169     
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            2     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.47994D+01    |proj g|=  3.17069D-10
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    2      0      1      0     0     0   3.171D-10   1.480D+01
+  F =   14.799378049945149     
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            

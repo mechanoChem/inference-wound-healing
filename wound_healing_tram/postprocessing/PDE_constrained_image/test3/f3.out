@@ -1,0 +1,115 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~ STARTING ADJ OPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Running testcase 3 with adjoint restart parameters
+Group: 4/6 with wells: ['A04', 'B04', 'C04', 'D04']
+for group 4/6, basis 5, gamma = [ 29.67126399   0.           0.           0.           0.
+   0.           0.05891251 -37.45988752]
+ww = 0, well = A04, loss = 3.6766238309180435
+ww = 1, well = B04, loss = 2.8410571945543
+ww = 2, well = C04, loss = 4.469611215158548
+ww = 3, well = D04, loss = 3.18108006508697
+m =  [ 29.67126722   0.05886747 -37.4598939 ]
+m =  [ 29.67126825   0.05886782 -37.45989565]
+m =  [ 29.67128279   0.05887007 -37.45992047]
+m =  [ 29.67131976   0.05887303 -37.45998359]
+m =  [ 29.67143536   0.05887839 -37.46018105]
+m =  [ 29.67174476   0.05888708 -37.46070966]
+m =  [ 29.67259063   0.05890211 -37.46215498]
+m =  [ 29.67483341   0.05892833 -37.46598745]
+m =  [ 29.68075543   0.05897594 -37.47610743]
+m =  [ 29.6961598    0.05906541 -37.5024322 ]
+===============================================
+Reinitialization after every: 10 steps
+Main optim time: 3152.281553 seconds
+===============================================
+After minimize, tem = [ 29.6961598    0.           0.           0.           0.
+   0.           0.05906541 -37.5024322 ]
+Done with step 6/8 with wells: ['A04', 'B04', 'C04', 'D04']
+for group 4/6, basis 6, gamma = [4.04090481e+01 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 7.39339019e-03 0.00000000e+00]
+ww = 0, well = A04, loss = 3.8362835687155643
+ww = 1, well = B04, loss = 2.941462110881308
+ww = 2, well = C04, loss = 4.690503257621414
+ww = 3, well = D04, loss = 3.3311291127273224
+===============================================
+Reinitialization after every: 10 steps
+Main optim time: 4470.927149 seconds
+===============================================
+After minimize, tem = [4.04090481e+01 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 7.39339019e-03 0.00000000e+00]
+Done with step 7/8 with wells: ['A04', 'B04', 'C04', 'D04']
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.41684D+01    |proj g|=  1.76738D-02
+
+At iterate    1    f=  1.41684D+01    |proj g|=  2.13141D-03
+
+At iterate    2    f=  1.41684D+01    |proj g|=  2.13422D-03
+
+At iterate    3    f=  1.41684D+01    |proj g|=  1.46921D-02
+
+At iterate    4    f=  1.41684D+01    |proj g|=  1.76343D-02
+
+At iterate    5    f=  1.41684D+01    |proj g|=  1.76396D-02
+
+At iterate    6    f=  1.41684D+01    |proj g|=  1.76483D-02
+
+At iterate    7    f=  1.41684D+01    |proj g|=  1.76634D-02
+
+At iterate    8    f=  1.41684D+01    |proj g|=  1.76896D-02
+
+At iterate    9    f=  1.41683D+01    |proj g|=  1.77372D-02
+
+At iterate   10    f=  1.41683D+01    |proj g|=  1.78267D-02
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     10     13     11     0     0   1.783D-02   1.417D+01
+  F =   14.168304261298838     
+
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT                 
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            2     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.47994D+01    |proj g|=  1.10618D-05
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    2      1     21      1     0     0   1.106D-05   1.480D+01
+  F =   14.799378049945609     
+
+ABNORMAL_TERMINATION_IN_LNSRCH                              
