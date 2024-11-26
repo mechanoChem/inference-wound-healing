@@ -9,7 +9,7 @@ Each directory consists of 4 subdirectories:
 2. FenicsCode/: directory contains the code used for data-driven inference. All the codes are based on the Fenics library (see installation instructions here https://fenicsproject.org/download/archive/)
 The codes are to be run sequentially from Step1-5. 
 3. results/: directory contains the results generated while running the scripts in FenicsCode
-4. postprocessing/: directory contains the MATLAB plotting scripts used to generate the paper figures.
+4. postprocessing/: directory contains the MATLAB plotting scripts used to generate the paper figures. Use codes labeled plot_* to plot the manuscript figures.
 
 wound_healing_jin/jinModelFenics contains the parameters extracted from Jin et.al. 
 
